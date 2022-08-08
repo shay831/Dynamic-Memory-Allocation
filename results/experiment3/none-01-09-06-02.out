@@ -1,0 +1,16 @@
+P5 Printout for CS 3410
+----------------------------------
+Trace  		trace.1t.long.text
+Instruction Limit 	none
+ *** Cache Configuration *** 
+capacity   		  512 B
+block_size 		   64 B
+associativity 		2-way
+n_set 			4
+n_cache_line 	8
+tag: 24, index: 2, offset: 6
+Coherence Protocol: 	none
+lru_on_invalidate_f: 	false
+Processing trace...
+1 0
+File 'trace.1t.long.text' not found
