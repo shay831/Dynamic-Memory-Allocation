@@ -1,0 +1,34 @@
+P5 Printout for CS 3410
+----------------------------------
+Trace  		trace.1t.long.txt
+Instruction Limit 	none
+ *** Cache Configuration *** 
+capacity   		  512 B
+block_size 		   64 B
+associativity 		4-way
+n_set 			2
+n_cache_line 	8
+tag: 25, index: 1, offset: 6
+Coherence Protocol: 	none
+lru_on_invalidate_f: 	false
+Processing trace...
+1 0
+Processed 35650 lines.
+    *** Results for Core 0 ***
+0.n_cpu_accesses 	35650
+0.n_loads 		26908
+0.n_stores 		8742
+0.n_hits 		29967
+0.n_misses 		5683
+0.hit_rate 		84.06
+0.miss_rate 		15.94
+0.n_upgrade_miss 	0
+0.n_bus_snoops 	0
+0.n_snoop_hits 	0
+0.n_writebacks 	1041
+Memory Traffic:
+0.B_written_bus_to_cache 	363712
+0.B_written_cache_to_bus_wb 	66624
+0.B_written_cache_to_bus_wt 	34968
+0.B_total_traffic_wb 	430336
+0.B_total_traffic_wt 	398680
